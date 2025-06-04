@@ -1,0 +1,21 @@
+There are two datasets provided:
+(1) monthly_detections_frontex.csv
+(2) processed_data_frontex.csv
+
+(1)
+
+Target data. Contains monthly border detections at different Route borders.
+
+Navigate to this link for more information in general about Frontex and the dataset, check out the tab 'Migratory Routes' minimally:
+https://www.frontex.europa.eu/what-we-do/monitoring-and-risk-analysis/monitoring-and-risk-analysis/
+
+Nature of dataset:
+Our ultimate target is an aggregated monthly prediction by Route (Eastern Mediterranean Route, etc.).
+
+
+(2)
+
+Exogenous variables. Contains various data sources about all countries that appear at least once in the target dataset.
+
+Various country metrics, and then I collected and added: 
+- commodity price/stock_close: because we are talking about movements people are making, I thought including some information about current trading prices/stock prices would be possibly useful.
